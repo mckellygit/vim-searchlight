@@ -9,7 +9,7 @@ highlight default link Searchlight ErrorMsg
 
 if has('patch-8.2.4724') || has('nvim-0.10')
     highlight link CurSearch Searchlight
-    finish
+"   finish
 endif
 
 command! -bar -bang -range=-1 Searchlight
